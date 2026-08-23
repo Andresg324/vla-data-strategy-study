@@ -1,0 +1,2 @@
+slope_deg_per_unit,intercept_deg,n,loo_median_abs_err_deg,loo_p90_abs_err_deg,loo_r2
+0.9485,3.6688,50,0.8631,2.2201,0.999

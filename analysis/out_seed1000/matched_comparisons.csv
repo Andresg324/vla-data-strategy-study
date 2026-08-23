@@ -1,0 +1,3 @@
+seed,eval_cell,matched_condition,matched,matched_rate,baseline,baseline_counts,baseline_rate,difference,diff_ci_low,diff_ci_high,fisher_p
+1000,new_positions,randomized,0/15,0.0,clean,0/15,0.0,0.0,-0.20388330103584862,0.20388330103584862,1.0
+1000,different_object,color,15/15,1.0,clean,15/15,1.0,0.0,-0.2038833010358485,0.2038833010358485,1.0

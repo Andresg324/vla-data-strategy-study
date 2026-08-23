@@ -1,0 +1,14 @@
+| condition | seed | never departed | median latency (s) | deg/step on successes | mean duration of successes (s) |
+|---|---|---|---|---|---|
+| clean | 1000 | 4/91 | 6.63 | 0.776 | 19.6 |
+| clean | 2000 | 7/91 | 6.88 | 0.778 | 21.5 |
+| color | 1000 | 0/75 | 1.03 | 0.887 | 13.4 |
+| color | 2000 | 0/75 | 1.57 | 0.887 | 13.5 |
+| recovery | 1000 | 3/75 | 3.21 | 0.915 | 17.7 |
+| recovery | 2000 | 5/75 | 2.15 | 0.867 | 21.1 |
+| randomized | 1000 | 11/75 | 5.57 | 0.899 | 21.6 |
+| randomized | 2000 | 18/75 | 8.13 | 0.903 | 23.1 |
+| color-slowpace | 1000 | 2/30 | 5.17 | 0.829 | 22.4 |
+| density | 1000 | 0/45 | 0.63 | 0.943 | 13.4 |
+
+Clean is out of 91 rather than 75 because the 16 displacement-probe episodes per seed were run on the Clean policy and are pooled here.

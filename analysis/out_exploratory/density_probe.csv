@@ -1,0 +1,4 @@
+eval_cell,density,density_rate,clean,clean_rate,difference,diff_ci_low,diff_ci_high,fisher_p
+in_distribution,15/15,1.0,15/15,1.0,0.0,-0.2039,0.2039,1.0
+trained_t2,15/15,1.0,,,,,,
+new_positions,0/15,0.0,0/15,0.0,0.0,-0.2039,0.2039,1.0

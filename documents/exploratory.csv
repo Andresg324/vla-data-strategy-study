@@ -1,0 +1,108 @@
+condition,eval_cell,seed,episode,instance,success,flagged,failure_mode,regrasp,notes
+color-slowpace,in_distribution,1000,1,-,1,,success,,
+color-slowpace,in_distribution,1000,2,-,1,,success,,
+color-slowpace,in_distribution,1000,3,-,1,,success,,
+color-slowpace,in_distribution,1000,4,-,0,,no_departure,,
+color-slowpace,in_distribution,1000,5,-,1,,success,,
+color-slowpace,in_distribution,1000,6,-,1,,success,,
+color-slowpace,in_distribution,1000,7,-,1,,success,,
+color-slowpace,in_distribution,1000,8,-,0,,contact_no_grasp,,bumped cube
+color-slowpace,in_distribution,1000,9,-,1,,success,,
+color-slowpace,in_distribution,1000,10,-,0,,timeout_other,,"took ~30 seconds to move, didn't have time to pick up cube"
+color-slowpace,in_distribution,1000,11,-,1,,success,,
+color-slowpace,in_distribution,1000,12,-,1,,success,,
+color-slowpace,in_distribution,1000,13,-,0,,no_departure,,
+color-slowpace,in_distribution,1000,14,-,1,,success,,
+color-slowpace,in_distribution,1000,15,-,0,,timeout_other,,"grabbed cube but took to long to start, didn't have time to put it in the cup"
+color-slowpace,different_object,1000,1,-,1,,success,,
+color-slowpace,different_object,1000,2,-,1,,success,,
+color-slowpace,different_object,1000,3,-,1,,success,,
+color-slowpace,different_object,1000,4,-,1,,success,,barely made it in time
+color-slowpace,different_object,1000,5,-,1,,success,,
+color-slowpace,different_object,1000,6,-,1,,success,,
+color-slowpace,different_object,1000,7,-,1,,success,,
+color-slowpace,different_object,1000,8,-,0,,timeout_other,,"Took too long to start, had picked up cube but didn't make it to cup"
+color-slowpace,different_object,1000,9,-,1,,success,,
+color-slowpace,different_object,1000,10,-,1,,success,,
+color-slowpace,different_object,1000,11,-,1,,success,,
+color-slowpace,different_object,1000,12,-,1,,success,,
+color-slowpace,different_object,1000,13,-,1,,success,,
+color-slowpace,different_object,1000,14,-,1,,success,,
+color-slowpace,different_object,1000,15,-,1,,success,,
+clean,near_1in,1000,1,-,0,,contact_no_grasp,,
+clean,near_1in,1000,2,-,0,,contact_no_grasp,,
+clean,near_1in,1000,3,-,0,,contact_no_grasp,,
+clean,near_1in,1000,4,-,0,,contact_no_grasp,,
+clean,near_1in,1000,5,-,0,,timeout_other,,"took  40 seconds to move, ran out of time before getting to cube"
+clean,near_1in,1000,6,-,0,,contact_no_grasp,,
+clean,near_1in,1000,7,-,0,,no_departure,,
+clean,near_1in,1000,8,-,0,,contact_no_grasp,,
+clean,near_1in,2000,1,-,1,,success,,
+clean,near_1in,2000,2,-,0,,contact_no_grasp,,
+clean,near_1in,2000,3,-,1,,success,,
+clean,near_1in,2000,4,-,0,,contact_no_grasp,,
+clean,near_1in,2000,5,-,0,,contact_no_grasp,,
+clean,near_1in,2000,6,-,1,,success,,
+clean,near_1in,2000,7,-,0,,contact_no_grasp,,
+clean,near_1in,2000,8,-,0,,contact_no_grasp,,
+clean,near_2in,1000,1,-,0,,no_departure,,
+clean,near_2in,1000,2,-,0,,timeout_other,,went to t6
+clean,near_2in,1000,3,-,0,,timeout_other,,went to t6
+clean,near_2in,1000,4,-,0,,timeout_other,,went to t6
+clean,near_2in,1000,5,-,0,,timeout_other,,went to t6
+clean,near_2in,1000,6,-,0,,timeout_other,,went to t6
+clean,near_2in,1000,7,-,0,,timeout_other,,went to t6
+clean,near_2in,1000,8,-,0,,timeout_other,,went to t6
+clean,near_2in,2000,1,-,0,,timeout_other,,went to t6
+clean,near_2in,2000,2,-,0,,timeout_other,,went to t6
+clean,near_2in,2000,3,-,0,,timeout_other,,went to t6
+clean,near_2in,2000,4,-,0,,timeout_other,,went to t6
+clean,near_2in,2000,5,-,0,,timeout_other,,went to t6
+clean,near_2in,2000,6,-,0,,timeout_other,,went to t6
+clean,near_2in,2000,7,-,0,,timeout_other,,went to t6
+clean,near_2in,2000,8,-,0,,contact_no_grasp,,"went to t6, bumped cube at last second"
+density,in_distribution,1000,1,-,1,,success,,
+density,in_distribution,1000,2,-,1,,success,,
+density,in_distribution,1000,3,-,1,,success,,
+density,in_distribution,1000,4,-,1,,success,,
+density,in_distribution,1000,5,-,1,,success,,
+density,in_distribution,1000,6,-,1,,success,,
+density,in_distribution,1000,7,-,1,,success,,
+density,in_distribution,1000,8,-,1,,success,,
+density,in_distribution,1000,9,-,1,,success,,
+density,in_distribution,1000,10,-,1,,success,,
+density,in_distribution,1000,11,-,1,,success,,
+density,in_distribution,1000,12,-,1,,success,,
+density,in_distribution,1000,13,-,1,,success,,
+density,in_distribution,1000,14,-,1,,success,,
+density,in_distribution,1000,15,-,1,,success,,
+density,trained_t2,1000,1,-,1,,success,,
+density,trained_t2,1000,2,-,1,,success,,
+density,trained_t2,1000,3,-,1,,success,,
+density,trained_t2,1000,4,-,1,,success,,
+density,trained_t2,1000,5,-,1,,success,,
+density,trained_t2,1000,6,-,1,,success,,
+density,trained_t2,1000,7,-,1,,success,,
+density,trained_t2,1000,8,-,1,,success,,
+density,trained_t2,1000,9,-,1,,success,,
+density,trained_t2,1000,10,-,1,,success,,
+density,trained_t2,1000,11,-,1,,success,,
+density,trained_t2,1000,12,-,1,,success,,
+density,trained_t2,1000,13,-,1,,success,,
+density,trained_t2,1000,14,-,1,,success,,
+density,trained_t2,1000,15,-,1,,success,,
+density,new_positions,1000,1,E1,0,,timeout_other,,
+density,new_positions,1000,2,E1,0,,timeout_other,,
+density,new_positions,1000,3,E1,0,,timeout_other,,
+density,new_positions,1000,4,E2,0,,timeout_other,,
+density,new_positions,1000,5,E2,0,,timeout_other,,
+density,new_positions,1000,6,E2,0,,timeout_other,,
+density,new_positions,1000,7,E3,0,,timeout_other,,
+density,new_positions,1000,8,E3,0,,timeout_other,,
+density,new_positions,1000,9,E3,0,,timeout_other,,
+density,new_positions,1000,10,E4,0,,timeout_other,,
+density,new_positions,1000,11,E4,0,,timeout_other,,
+density,new_positions,1000,12,E4,0,,timeout_other,,
+density,new_positions,1000,13,E5,0,,timeout_other,,
+density,new_positions,1000,14,E5,0,,timeout_other,,
+density,new_positions,1000,15,E5,0,,timeout_other,,

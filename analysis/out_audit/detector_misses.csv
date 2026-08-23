@@ -1,0 +1,5 @@
+policy,condition,seed,cell,episode,success,failure_mode,frames,duration_s,n_releases,n_kept,nearest_release_deg,max_travel_deg
+clean-seed2000,clean,2000,distractors,1,0,grasp_drop,449,14.933,1,0,44.70385607897036,5.090354857130748
+color,color,1000,in_distribution,11,0,grasp_drop,1148,38.233,5,0,48.5746518587744,3.757241933975493
+randomized,randomized,1000,distractors,8,0,grasp_drop,1146,38.167,4,0,31.674220313760845,6.580071315614912
+randomized-seed2000,randomized,2000,reduced_lighting,12,0,grasp_drop,1151,38.333,1,0,45.186658482406216,5.800326464702927

@@ -1,0 +1,9 @@
+policy,episodes,samples,n_positions,chance_med_deg,probe_by_episode_deg,probe_by_episode_lo,probe_by_episode_hi,probe_by_position_deg,probe_by_position_lo,probe_by_position_hi,probe_mean_deg,control_tfe_med_steps,control_chance_steps
+clean-seed2000,15,357,5,42.2,9.6,7.2,12.0,42.3,13.4,49.6,12.0,168.1,281.4
+clean,15,342,5,42.1,10.4,7.4,14.8,38.9,12.2,48.2,14.4,188.3,289.1
+color-seed2000,15,353,5,42.0,11.1,8.6,16.0,36.3,13.8,62.8,15.8,185.0,287.3
+color,15,355,5,42.2,10.4,7.8,14.2,35.1,13.0,62.6,13.4,189.1,282.4
+randomized-seed2000,15,358,5,42.4,8.8,6.3,15.0,26.5,15.8,42.4,13.7,207.9,279.1
+randomized,15,349,5,42.4,8.6,6.9,10.5,36.6,10.8,48.1,10.9,219.1,291.1
+recovery-seed2000,15,351,5,42.1,10.0,7.3,13.4,35.8,22.9,50.4,13.5,175.2,288.9
+recovery,15,356,5,42.0,11.4,8.6,14.9,37.4,18.4,45.5,14.6,134.4,286.9

@@ -1,0 +1,14 @@
+| condition | seed | final loss | grid total |
+|---|---|---|---|
+| randomized | 2000 | 0.0357 | 13/75 |
+| randomized | 1000 | 0.0375 | 12/75 |
+| color-slowpace | 1000 | 0.0472 | n/a |
+| clean | 2000 | 0.0473 | 46/75 |
+| clean | 1000 | 0.0482 | 55/75 |
+| color | 2000 | 0.0508 | 56/75 |
+| color | 1000 | 0.0518 | 53/75 |
+| recovery | 2000 | 0.0529 | 31/75 |
+| recovery | 1000 | 0.0538 | 39/75 |
+| density | 1000 | 0.0559 | n/a |
+
+Final loss is the last logged value (step 9800). Color-slowpace and density are exploratory and outside the registered grid.

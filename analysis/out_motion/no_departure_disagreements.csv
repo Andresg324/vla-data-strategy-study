@@ -1,0 +1,1 @@
+policy,condition,seed,cell,episode,n_frames,duration_s,max_dev_deg,departed,latency_s,deg_per_step,peak_deg_step,exec_s,success,failure_mode,regrasp,instance

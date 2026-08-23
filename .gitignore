@@ -1,0 +1,55 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# --- Environments ---
+.venv/
+venv/
+env/
+.env
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- OS, editors, Office lock files ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+~$*
+
+# --- Training and logging artifacts (regenerated, or too large) ---
+outputs/
+wandb/
+*.ckpt
+*.safetensors
+
+# --- Probing ---
+# Extracted activations are hundreds of MB and regenerate from extract_activations.py.
+# No .npz in this repository is meant to be tracked.
+*.npz
+probing/out_np/
+probing/out_np_newpos_only/
+probing/out_synthetic/
+# Extraction logs carry absolute paths and the Hub username
+probing/out/*.txt
+
+# --- Tool scratch output ---
+# Camera previews written into the source tree by check_cameras.py
+tools/preview_*.jpg
+# Two-pass palette left behind by make_gif.py if a run is interrupted
+*.palette.png
+
+# --- Deliberately not ignored, listed here so nobody adds them later ---
+# analysis/out_*/    derived CSVs, released with the paper
+# documents/         raw scores, derived CSVs, training_loss.csv
+# figures/           tables and figures referenced by the paper and the README
+# configs/           the nine resolved training configs
+# media/             photographs and camera frames referenced by the docs

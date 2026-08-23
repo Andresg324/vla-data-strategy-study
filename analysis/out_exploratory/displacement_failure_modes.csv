@@ -1,0 +1,5 @@
+eval_cell,seed,contact_no_grasp,no_departure,success,timeout_other
+near_1in,1000,6,1,0,1
+near_1in,2000,5,0,3,0
+near_2in,1000,0,1,0,7
+near_2in,2000,1,0,0,7

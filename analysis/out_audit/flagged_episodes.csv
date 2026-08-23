@@ -1,0 +1,13 @@
+policy,condition,seed,cell,episode,success,failure_mode,frames,duration_s,n_releases,n_kept,nearest_release_deg,max_travel_deg,screen
+clean,clean,1000,different_object,2,1,success,1112,37.033,1,1,5.912503641824291,43.29463400180276,success at ceiling
+clean,clean,1000,different_object,10,1,success,1151,38.333,1,1,4.208000079432448,45.41496735128567,success at ceiling
+clean-seed2000,clean,2000,different_object,4,1,success,1151,38.333,1,1,2.4923338112529585,46.82214491780154,success at ceiling
+clean-seed2000,clean,2000,different_object,7,1,success,1151,38.333,1,1,2.6151760414435508,46.97378403421937,success at ceiling
+clean-seed2000,clean,2000,different_object,13,1,success,1150,38.3,1,1,4.2929542408053685,44.55562354307393,success at ceiling
+clean-seed2000,clean,2000,different_object,15,1,success,1101,36.667,1,1,2.6085417396407387,46.94025430547341,success at ceiling
+color-slowpace,color-slowpace,1000,different_object,4,1,success,1151,38.333,1,1,3.296187935637608,47.784612588233095,success at ceiling
+recovery,recovery,1000,different_object,7,1,success,1151,38.333,1,1,3.8903514459369184,46.50068251059444,success at ceiling
+recovery-seed2000,recovery,2000,different_object,6,1,success,1144,38.1,1,1,4.0122438510807505,46.04303871115908,success at ceiling
+recovery-seed2000,recovery,2000,reduced_lighting,14,1,success_after_drop,1148,38.233,5,3,3.147392866788355,39.135567224901884,success at ceiling
+clean,clean,1000,distractors,8,0,cube_out_of_bounds,408,13.567,0,0,,,failure ended early
+clean-seed2000,clean,2000,distractors,1,0,grasp_drop,449,14.933,1,0,44.70385607897036,5.090354857130748,failure ended early

@@ -1,0 +1,3 @@
+cell,n,true_az,median_az,err
+in_distribution,15,24.23,24.14,-0.09
+trained_t2,15,-30.96,-32.55,-1.58

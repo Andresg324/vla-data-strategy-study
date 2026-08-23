@@ -1,0 +1,7 @@
+policy,episodes,cells,successes,failures,auc_early,auc_late_control,null_median,null_p95,perm_p,n_perms
+clean-seed2000,53,different_object+distractors+near_1in+reduced_lighting,34,19,0.63,1.0,0.512,0.666,0.1018,500
+color,45,distractors+in_distribution+reduced_lighting,38,7,0.579,1.0,0.432,0.699,0.1677,500
+randomized-seed2000,45,different_object+in_distribution+reduced_lighting,13,32,0.613,1.0,0.514,0.683,0.1756,500
+randomized,45,distractors+in_distribution+reduced_lighting,12,33,0.742,0.995,0.588,0.735,0.0459,500
+recovery-seed2000,60,different_object+distractors+in_distribution+reduced_lighting,31,29,0.564,0.991,0.593,0.714,0.6727,500
+recovery,60,different_object+distractors+in_distribution+reduced_lighting,39,21,0.53,1.0,0.574,0.69,0.7285,500

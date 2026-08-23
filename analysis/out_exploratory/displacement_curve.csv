@@ -1,0 +1,9 @@
+seed,displacement,source,n,successes,success_rate,ci_low,ci_high
+1000,No Displacement,registered,15,15,1.0,0.7961,1.0
+1000,1.0 inch,exploratory,8,0,0.0,0.0,0.3244
+1000,2.0 inches,exploratory,8,0,0.0,0.0,0.3244
+1000,"3.5+ inches (E1 to E5, 3.5 to 14 inches)",registered,15,0,0.0,0.0,0.2039
+2000,No Displacement,registered,15,15,1.0,0.7961,1.0
+2000,1.0 inch,exploratory,8,3,0.375,0.1368,0.6943
+2000,2.0 inches,exploratory,8,0,0.0,0.0,0.3244
+2000,"3.5+ inches (E1 to E5, 3.5 to 14 inches)",registered,15,0,0.0,0.0,0.2039

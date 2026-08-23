@@ -1,0 +1,10 @@
+policy,in_distribution,reduced_lighting,different_object,distractors,new_positions
+clean,23.323,23.37,23.455,23.484,23.318
+clean-seed2000,24.271,23.607,23.835,23.939,22.649
+color,24.053,23.522,24.11,24.688,23.095
+color-seed2000,24.337,24.442,24.451,24.442,23.218
+density,24.138,,,,-27.68
+randomized,24.086,23.692,22.924,21.776,14.937
+randomized-seed2000,25.371,24.47,24.195,16.958,3.413
+recovery,23.949,24.157,24.442,22.156,22.526
+recovery-seed2000,24.679,24.281,24.262,23.294,22.53
