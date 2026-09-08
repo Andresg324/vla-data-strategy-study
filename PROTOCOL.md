@@ -383,11 +383,17 @@ retained dataset is named in §8.
       vision-language backbone in eval mode with `requires_grad=False`. Roughly 100M of 450M
       parameters are trainable, so all policies share an identical perceptual front end and
       every behavioral difference is attributable to the action expert.
-    - **The learning-rate schedule was configured for longer than the run.** The default cosine
-      decay carries `scheduler_decay_steps: 30000` with 1000 warmup steps against a 10000 step
-      run, so the evaluated checkpoint sits near 79% of peak learning rate rather than fully
-      annealed. This applies identically to all runs and is disclosed rather than corrected,
-      since correcting it afterwards would break the comparison §4.7 protects.
+    - **Correction: the learning-rate schedule was rescaled to the run length.** The resolved
+      configs carry `scheduler_decay_steps: 30000` and `scheduler_warmup_steps: 1000` against a
+      10000 step run, which was originally read as leaving the checkpoint near 79% of peak
+      learning rate, which was wrong. `CosineDecayWithWarmupSchedulerConfig` rescales
+      warmup and decay whenever training steps fall below `num_decay_steps`, and the rescaling
+      happens when the scheduler is constructed rather than when the config is resolved, so the
+      config file cannot show it. The effective schedule was 333 warmup and 10000 decay steps.
+      The logged learning-rate series confirms it: the final logged value is 2.72e-6 against
+      `decay_lr` of 2.5e-6, where an unrescaled 30000 step horizon would have put step 9800 near
+      7.9e-5. Every evaluated checkpoint is therefore fully annealed. No setting changed and no
+      result changes; this corrects the description only. *Corrected September 8, 2026.*
     - **The policy carries a third image slot that no dataset fills.** `input_features` lists
       `camera1`, `camera2` and `camera3`, inherited from the `smolvla_base` configuration. Every
       dataset in the study provides two cameras, `overhead` and `wrist`, which the `rename_map`
